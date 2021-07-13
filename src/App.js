@@ -20,7 +20,7 @@ class App extends Component {
           <MenuNav />
           <div className="content">
             <Switch>
-              <Route exact path="/"><Home /></Route>
+              <Route exact path="/vivero-serrano"><Home /></Route>
               <Route exact path="/servicios" component={Services} />
               <Route exact path="/noticias" component={News} />
               <Route exact path="/galeria" component={Galery} />

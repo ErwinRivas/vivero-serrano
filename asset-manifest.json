@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/vivero-serrano/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/vivero-serrano/static/js/main.3c4c1dee.chunk.js",
-    "main.js.map": "/vivero-serrano/static/js/main.3c4c1dee.chunk.js.map",
-    "runtime-main.js": "/vivero-serrano/static/js/runtime-main.89d48ed8.js",
-    "runtime-main.js.map": "/vivero-serrano/static/js/runtime-main.89d48ed8.js.map",
-    "static/css/2.3e54ceb5.chunk.css": "/vivero-serrano/static/css/2.3e54ceb5.chunk.css",
-    "static/js/2.8f590efc.chunk.js": "/vivero-serrano/static/js/2.8f590efc.chunk.js",
-    "static/js/2.8f590efc.chunk.js.map": "/vivero-serrano/static/js/2.8f590efc.chunk.js.map",
+    "main.css": "/vivero-serrano/static/css/main.2ae47eeb.chunk.css",
+    "main.js": "/vivero-serrano/static/js/main.20b8bcfc.chunk.js",
+    "main.js.map": "/vivero-serrano/static/js/main.20b8bcfc.chunk.js.map",
+    "runtime-main.js": "/vivero-serrano/static/js/runtime-main.66f1eb55.js",
+    "runtime-main.js.map": "/vivero-serrano/static/js/runtime-main.66f1eb55.js.map",
+    "static/css/2.de86d4ba.chunk.css": "/vivero-serrano/static/css/2.de86d4ba.chunk.css",
+    "static/js/2.f660fd2d.chunk.js": "/vivero-serrano/static/js/2.f660fd2d.chunk.js",
+    "static/js/2.f660fd2d.chunk.js.map": "/vivero-serrano/static/js/2.f660fd2d.chunk.js.map",
     "index.html": "/vivero-serrano/index.html",
-    "static/css/2.3e54ceb5.chunk.css.map": "/vivero-serrano/static/css/2.3e54ceb5.chunk.css.map",
-    "static/css/main.6dea0f05.chunk.css.map": "/vivero-serrano/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.8f590efc.chunk.js.LICENSE.txt": "/vivero-serrano/static/js/2.8f590efc.chunk.js.LICENSE.txt",
+    "static/css/2.de86d4ba.chunk.css.map": "/vivero-serrano/static/css/2.de86d4ba.chunk.css.map",
+    "static/css/main.2ae47eeb.chunk.css.map": "/vivero-serrano/static/css/main.2ae47eeb.chunk.css.map",
+    "static/js/2.f660fd2d.chunk.js.LICENSE.txt": "/vivero-serrano/static/js/2.f660fd2d.chunk.js.LICENSE.txt",
     "static/media/flower.b597b58d.jpg": "/vivero-serrano/static/media/flower.b597b58d.jpg",
     "static/media/primeicons.css": "/vivero-serrano/static/media/primeicons.e61f3495.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.89d48ed8.js",
-    "static/css/2.3e54ceb5.chunk.css",
-    "static/js/2.8f590efc.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.3c4c1dee.chunk.js"
+    "static/js/runtime-main.66f1eb55.js",
+    "static/css/2.de86d4ba.chunk.css",
+    "static/js/2.f660fd2d.chunk.js",
+    "static/css/main.2ae47eeb.chunk.css",
+    "static/js/main.20b8bcfc.chunk.js"
   ]
 }

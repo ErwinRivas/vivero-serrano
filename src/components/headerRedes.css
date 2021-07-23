@@ -1,0 +1,27 @@
+.navHeaderRedes {
+  background: black;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.linkHeaderRedes {
+  color: white;
+  font-weight: normal;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.fabColor{
+  color: white;
+  width: 17px;
+  height:17px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 960px) {
+  .navHeaderRedes {
+    display: none;
+  }
+}

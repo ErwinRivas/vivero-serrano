@@ -2,7 +2,8 @@ import React from 'react'
 
 
 
-const Galery = () => <h1>GALERIA</h1>
+const Galery = () =><div style={{height:'500px'}}> <h1>GALERIA</h1>
+</div>
 
 
 export default Galery

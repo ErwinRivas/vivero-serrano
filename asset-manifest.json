@@ -1,26 +1,32 @@
 {
   "files": {
-    "main.css": "/vivero-serrano/static/css/main.84024c3b.chunk.css",
-    "main.js": "/vivero-serrano/static/js/main.f572cf88.chunk.js",
-    "main.js.map": "/vivero-serrano/static/js/main.f572cf88.chunk.js.map",
+    "main.css": "/vivero-serrano/static/css/main.169ed60b.chunk.css",
+    "main.js": "/vivero-serrano/static/js/main.b2952643.chunk.js",
+    "main.js.map": "/vivero-serrano/static/js/main.b2952643.chunk.js.map",
     "runtime-main.js": "/vivero-serrano/static/js/runtime-main.89d48ed8.js",
     "runtime-main.js.map": "/vivero-serrano/static/js/runtime-main.89d48ed8.js.map",
     "static/css/2.961d4aa5.chunk.css": "/vivero-serrano/static/css/2.961d4aa5.chunk.css",
-    "static/js/2.b1117f18.chunk.js": "/vivero-serrano/static/js/2.b1117f18.chunk.js",
-    "static/js/2.b1117f18.chunk.js.map": "/vivero-serrano/static/js/2.b1117f18.chunk.js.map",
+    "static/js/2.8d5b4eb6.chunk.js": "/vivero-serrano/static/js/2.8d5b4eb6.chunk.js",
+    "static/js/2.8d5b4eb6.chunk.js.map": "/vivero-serrano/static/js/2.8d5b4eb6.chunk.js.map",
     "index.html": "/vivero-serrano/index.html",
     "static/css/2.961d4aa5.chunk.css.map": "/vivero-serrano/static/css/2.961d4aa5.chunk.css.map",
-    "static/css/main.84024c3b.chunk.css.map": "/vivero-serrano/static/css/main.84024c3b.chunk.css.map",
-    "static/js/2.b1117f18.chunk.js.LICENSE.txt": "/vivero-serrano/static/js/2.b1117f18.chunk.js.LICENSE.txt",
+    "static/css/main.169ed60b.chunk.css.map": "/vivero-serrano/static/css/main.169ed60b.chunk.css.map",
+    "static/js/2.8d5b4eb6.chunk.js.LICENSE.txt": "/vivero-serrano/static/js/2.8d5b4eb6.chunk.js.LICENSE.txt",
+    "static/media/1.12f10288.jpg": "/vivero-serrano/static/media/1.12f10288.jpg",
+    "static/media/2.ecc006c7.jpg": "/vivero-serrano/static/media/2.ecc006c7.jpg",
+    "static/media/3.f69d8f53.jpg": "/vivero-serrano/static/media/3.f69d8f53.jpg",
+    "static/media/4.619a9bf3.jpg": "/vivero-serrano/static/media/4.619a9bf3.jpg",
     "static/media/carrito.1277329b.png": "/vivero-serrano/static/media/carrito.1277329b.png",
     "static/media/flower.b597b58d.jpg": "/vivero-serrano/static/media/flower.b597b58d.jpg",
+    "static/media/iconmonstr-angel-left-thin.b74b51c4.svg": "/vivero-serrano/static/media/iconmonstr-angel-left-thin.b74b51c4.svg",
+    "static/media/iconmonstr-angel-right-thin.b282d2fc.svg": "/vivero-serrano/static/media/iconmonstr-angel-right-thin.b282d2fc.svg",
     "static/media/primeicons.css": "/vivero-serrano/static/media/primeicons.e61f3495.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.89d48ed8.js",
     "static/css/2.961d4aa5.chunk.css",
-    "static/js/2.b1117f18.chunk.js",
-    "static/css/main.84024c3b.chunk.css",
-    "static/js/main.f572cf88.chunk.js"
+    "static/js/2.8d5b4eb6.chunk.js",
+    "static/css/main.169ed60b.chunk.css",
+    "static/js/main.b2952643.chunk.js"
   ]
 }

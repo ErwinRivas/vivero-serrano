@@ -13,7 +13,7 @@ class Footer extends Component {
         return (
             <div >
                 <nav className="navFooter">
-                    <nav className="navFooterLink">
+                    <nav className="navFooterTodos">    
                         <div>
                             <nav className="navFooterLink">
                                 <Link to='/vivero-serrano' className="linkHeaderRedes" >
@@ -67,7 +67,7 @@ class Footer extends Component {
                     <nav className="navLine">
                         <br /><hr /><br />
                     </nav>
-                    <nav className="navFooterLink">
+                    <nav className="navFooterLinkRedes">
                         <div></div>
                         <div className="divLink">
                             <Link to='/vivero-serrano'>
@@ -81,7 +81,7 @@ class Footer extends Component {
                             </Link>
                         </div>
                         <div>
-                            <span className="spanCopyright">Copyright © 2021 |  desarrollado por Rivas, serrano, guacho</span>
+                            <span className="spanCopyright">Copyright © 2021 |  desarrollado por Rivas, Serrano, Guacho, Heredia</span>
                         </div>
                     </nav>
                 </nav>

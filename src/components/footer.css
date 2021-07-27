@@ -10,7 +10,38 @@
     align-items: center;
     font-size: 1.2rem;
 }
+.navFooterTodos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.navFooterLinkRedes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
 
+@media screen and (max-width: 960px) {
+    .navFooterTodos {
+        display: grid;
+        grid-gap: 50px;
+        justify-content: center;
+    }
+    .divContactenos {
+        margin-top: 0px !important;
+    }
+    .navFooterLinkRedes{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .divLink{
+        margin-left: 0px !important;
+    }
+
+}
 .navLine {
     display: flex;
     justify-content: space-between;
@@ -18,7 +49,7 @@
 }
 
 hr {
-    width: 95vw;
+    width: 97vw;
 }
 
 h1.h1Titulos {
@@ -50,6 +81,7 @@ span{
 }
 .spanCopyright{
     margin-right: 10px;
+    font-size: 10px;
 }
 .divLink{
     margin-left: 400px;

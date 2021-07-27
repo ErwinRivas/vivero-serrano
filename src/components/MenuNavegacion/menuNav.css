@@ -70,7 +70,7 @@
   .NavbarItems {
     position: relative;
   }
-  .nav-menu {
+  .nav-menu {      /*no usamos display:none sino que lo mandamos a la izquierda */
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -135,9 +135,9 @@
     color: #1888ff;
     transition: 250ms;
   }
-  button {
+  /* button {
     display: none;
-  }
+  } */
   .linkIconos{
     display: none;
   }

@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/vivero-serrano/static/css/main.169ed60b.chunk.css",
-    "main.js": "/vivero-serrano/static/js/main.b2952643.chunk.js",
-    "main.js.map": "/vivero-serrano/static/js/main.b2952643.chunk.js.map",
+    "main.css": "/vivero-serrano/static/css/main.151f6f11.chunk.css",
+    "main.js": "/vivero-serrano/static/js/main.8c896d5b.chunk.js",
+    "main.js.map": "/vivero-serrano/static/js/main.8c896d5b.chunk.js.map",
     "runtime-main.js": "/vivero-serrano/static/js/runtime-main.89d48ed8.js",
     "runtime-main.js.map": "/vivero-serrano/static/js/runtime-main.89d48ed8.js.map",
     "static/css/2.961d4aa5.chunk.css": "/vivero-serrano/static/css/2.961d4aa5.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.8d5b4eb6.chunk.js.map": "/vivero-serrano/static/js/2.8d5b4eb6.chunk.js.map",
     "index.html": "/vivero-serrano/index.html",
     "static/css/2.961d4aa5.chunk.css.map": "/vivero-serrano/static/css/2.961d4aa5.chunk.css.map",
-    "static/css/main.169ed60b.chunk.css.map": "/vivero-serrano/static/css/main.169ed60b.chunk.css.map",
+    "static/css/main.151f6f11.chunk.css.map": "/vivero-serrano/static/css/main.151f6f11.chunk.css.map",
     "static/js/2.8d5b4eb6.chunk.js.LICENSE.txt": "/vivero-serrano/static/js/2.8d5b4eb6.chunk.js.LICENSE.txt",
     "static/media/1.12f10288.jpg": "/vivero-serrano/static/media/1.12f10288.jpg",
     "static/media/2.ecc006c7.jpg": "/vivero-serrano/static/media/2.ecc006c7.jpg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.89d48ed8.js",
     "static/css/2.961d4aa5.chunk.css",
     "static/js/2.8d5b4eb6.chunk.js",
-    "static/css/main.169ed60b.chunk.css",
-    "static/js/main.b2952643.chunk.js"
+    "static/css/main.151f6f11.chunk.css",
+    "static/js/main.8c896d5b.chunk.js"
   ]
 }

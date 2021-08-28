@@ -15,12 +15,13 @@ import Posible2 from './pages/Posible2'
 import Posible3 from './pages/Posible3'
 import Posible4 from './pages/Posible4'
 import HeaderRedes from './components/HeaderRedes'
+import Footer from './components/Footer'
 
 class App extends Component {
   render() {
     return (
       <Router>
-            <HeaderRedes />
+          <HeaderRedes />
           <MenuNav />
           <Switch>
             <Route exact path="/vivero-serrano"><Home /></Route>
@@ -34,6 +35,7 @@ class App extends Component {
             <Route exact path="/galeria/posible4" component={Posible4} />
             <Route component={NotFound} />
           </Switch>
+          <Footer/>
       </Router>
     )
   }

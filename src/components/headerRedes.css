@@ -10,7 +10,7 @@
 .linkHeaderRedes {
   color: white;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
@@ -23,5 +23,16 @@
 @media screen and (max-width: 960px) {
   .navHeaderRedes {
     display: none;
+  }
+  .linkHeaderRedes {
+    font-size: 10px !important;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .spanTitulos {
+    padding: 0.5rem 5px ;
+  }
+  .contenedorLinks{
+   margin-left: 10px;
   }
 }

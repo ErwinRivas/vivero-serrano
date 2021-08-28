@@ -5,23 +5,24 @@ import '../components/footer.css'
 
 const FooterLinks = () => {
     return (
-        <div>
-            <Link to='/vivero-serrano' className="linkHeaderRedes" >
+        <div className="contenedorLinks">
+            <Link to='/vivero-serrano' className="linkHeaderRedes spanTitulos" >
                 <span >INICIO</span>
-            </Link> <span>|</span>
-            <Link to='/vivero-serrano' className="linkHeaderRedes" >
+            </Link>
+            <span>|</span>
+            <Link to='/vivero-serrano' className="linkHeaderRedes spanTitulos" >
                 <span >SERVICIOS</span>
             </Link>
             <span>|</span>
-            <Link to='/vivero-serrano' className="linkHeaderRedes" >
+            <Link to='/vivero-serrano' className="linkHeaderRedes spanTitulos" >
                 <span >NOTICIAS</span>
             </Link>
             <span>|</span>
-            <Link to='/vivero-serrano' className="linkHeaderRedes" >
+            <Link to='/vivero-serrano' className="linkHeaderRedes spanTitulos" >
                 <span >GALERIA</span>
             </Link>
             <span>|</span>
-            <Link to='/vivero-serrano' className="linkHeaderRedes" >
+            <Link to='/vivero-serrano' className="linkHeaderRedes spanTitulos" >
                 <span >CONTÁCTENOS</span>
             </Link>
         </div>

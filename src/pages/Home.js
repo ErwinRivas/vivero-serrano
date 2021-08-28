@@ -6,6 +6,7 @@ import img1 from '../images/1.jpg'
 import img2 from '../images/2.jpg'
 import img3 from '../images/3.jpg'
 import img4 from '../images/4.jpg'
+import Tabs from '../components/TabsArtsServOfer';
 
 class Home extends Component {
     render() {
@@ -14,11 +15,11 @@ class Home extends Component {
                 <div style={{ margin: '17px' }}>
                     <DivSlide>
                         {/* <Titulo>Productos Destacados</Titulo> */}
-                        <Slideshow controles={true} velocidad="2000" intervalo="4000"> {/*  autoplay={true}  */}
+                        <Slideshow controles={true} autoplay={true} velocidad="2000" intervalo="4000">
                             <Slide>
                                 <Link to='/vivero-serrano'>
                                     <img src={img1} alt="" />
-                                    <TextoSlide colorFondo="rgba(0,0,0,0)">
+                                    <TextoSlide colorFondo="rgba(0,0,0,00)">
                                         <Parrafo>Más Información</Parrafo>
                                     </TextoSlide>
                                 </Link>
@@ -26,7 +27,7 @@ class Home extends Component {
                             <Slide>
                                 <Link to='/vivero-serrano'>
                                     <img src={img2} alt="" />
-                                    <TextoSlide colorFondo="rgba(0,0,0,0)">
+                                    <TextoSlide colorFondo="rgba(0,0,0,00)">
                                         <Parrafo>Más Información</Parrafo>
                                     </TextoSlide>
                                 </Link>
@@ -34,7 +35,7 @@ class Home extends Component {
                             <Slide>
                                 <Link to='/vivero-serrano'>
                                     <img src={img3} alt="" />
-                                    <TextoSlide colorFondo="rgba(0,0,0,0)">
+                                    <TextoSlide>
                                         <Parrafo>Más Información</Parrafo>
                                     </TextoSlide>
                                 </Link>
@@ -49,7 +50,7 @@ class Home extends Component {
                             </Slide>
                         </Slideshow>
                     </DivSlide>
-                    <div>articulos ofertas</div>
+                    <Tabs />
                     <div>productos mas vendidos</div>
                     <div>info </div>
                 </div>

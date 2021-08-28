@@ -168,7 +168,8 @@ const Boton = styled.button`
 			fill: #fff;
 		}
 	} */
-
+	
+	/* path es etiqueta de SVG y ejecutamos un filter  */
 	path {
 		filter: ${props => props.derecho ? 'drop-shadow(-2px 0px 0px #fff)' : 'drop-shadow(2px 0px 0px #fff)'};
 	}

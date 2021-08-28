@@ -14,7 +14,6 @@ class Home extends Component {
             <div>
                 <div style={{ margin: '17px' }}>
                     <DivSlide>
-                        {/* <Titulo>Productos Destacados</Titulo> */}
                         <Slideshow controles={true} autoplay={true} velocidad="2000" intervalo="4000">
                             <Slide>
                                 <Link to='/vivero-serrano'>
@@ -59,12 +58,6 @@ class Home extends Component {
     }
 
 }
-const Titulo = styled.p`
-	font-size: 18px;
-	font-weight: 700;
-	text-transform: uppercase;
-	margin-bottom: 10px;
-`;
 const DivSlide = styled.div`
     max-width:1280px;
     margin:  auto;

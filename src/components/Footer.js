@@ -71,13 +71,13 @@ class Footer extends Component {
                         <div></div>
                         <div className="divLink">
                             <Link to='/vivero-serrano'>
-                                <i class="fab fa-facebook-square   fabColor"></i>
+                                <i className="fab fa-facebook-square   fabColor"></i>
                             </Link>
                             <Link to='/vivero-serrano'>
-                                <i class="fab fa-instagram-square fabColor"></i>
+                                <i className="fab fa-instagram-square fabColor"></i>
                             </Link>
                             <Link to='/vivero-serrano'>
-                                <i class="fab fa-twitter-square fabColor"></i>
+                                <i className="fab fa-twitter-square fabColor"></i>
                             </Link>
                         </div>
                         <div>

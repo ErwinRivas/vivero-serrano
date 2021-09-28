@@ -10,8 +10,8 @@ class TabsContenidoUno extends Component {
         });
         const imagenesFiltradas = imagenesDatos.map((imagenes, i) => {
             return (
-                <ContenidoImgFiltroDiv>
-                    <ImagenCont src={imagenes.img} alt={imagenes.nombre} />
+                <ContenidoImgFiltroDiv  key={i}>
+                    <ImagenCont src={imagenes.img} alt={imagenes.nombre}  />
                     <TextoCont colorText="#fff" tamanioText="1.9vw" >{imagenes.nombre}</TextoCont>
                 </ContenidoImgFiltroDiv>
             )
@@ -41,7 +41,7 @@ class TabsContenidoUno extends Component {
     }
 }
 
-export default TabsContenidoUno
+
 
 const ContenidoUno = styled.div`
 text-align:center;
@@ -50,7 +50,7 @@ max-height: 450px;
 position:relative;
 background:${props => props.colorFondo ? props.colorFondo : ''};
 hr{
-    width: 98%;
+    width: 98% !important;
     margin:auto;
     
 }
@@ -62,6 +62,7 @@ hr{
 const ImagenCont = styled.img`
 height: ${props => props.altura ? props.altura : '100%'};
 width:${props => props.anchura ? props.anchura : '100%'};
+object-fit: cover;
 margin-top: ${props => props.margenTop ? props.margenTop : ''};
 
 @media screen and (max-width: 500px) {
@@ -98,8 +99,9 @@ padding: 7px 3px 0px 3px;
 
 const ContenidoImgFiltroDiv = styled.div`
 position:relative;
-max-width: 280px;
-max-height: 250px;
+max-height: ${props => props.alturaMax ? props.alturaMax : '250px'};
+max-width:${props => props.anchuraMax ? props.anchuraMax : '280px'};
+
 padding: 16px 36px;
 @media screen and (max-width: 996px) {
 padding: 1px 1px;
@@ -113,3 +115,5 @@ color: #9b9b9b;
 font-weight: 400;
 font-size: 1.3vw;
 `;
+
+export {TabsContenidoUno, ContenidoImgFiltroDiv, ImagenCont, TextoCont };

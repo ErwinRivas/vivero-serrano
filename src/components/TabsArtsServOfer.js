@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styled from 'styled-components';
-import TabsContenidoUno from "./TabsContenidoUno";
+import {TabsContenidoUno} from "./TabsContenidoUno";
 
 function Tabs() {
     const [toggleState, setToggleState] = useState(1);
@@ -42,7 +42,7 @@ function Tabs() {
                     tabActivo={toggleState}
                 >
                     <Contenidos>
-                        <TabsContenidoUno />
+                        <TabsContenidoUno />   
                     </Contenidos>
                 </DivContenido>
 
@@ -88,7 +88,7 @@ const ContenedorPrincipal = styled.div`
     align-items: center;
     flex-direction: column;
     position: relative;
-    max-width: 1280px;
+    max-width: 100%;
     max-height: 100%;
     /* background: #f1f1f1; */
     margin: 17px auto 0;
@@ -149,7 +149,7 @@ background: ${props => props.tabActivo === 1 ? props.colorBefore1
 
 const ContenedorContenidoTabs = styled.div`
     display:flex;
-    max-width: 1280px;
+    max-width: 100%;
     width: 100%;
 `;
 

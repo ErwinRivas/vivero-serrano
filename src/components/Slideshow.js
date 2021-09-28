@@ -16,7 +16,7 @@ const Slideshow = ({
 	const siguiente = useCallback(() => {
 		// Comprobamos que el slideshow tenga elementos
 		if (slideshow.current.children.length > 0) {
-			console.log('Siguiente')
+			//console.log('Siguiente')
 
 			// Obtenemos el primer elemento del slideshow.
 			const primerElemento = slideshow.current.children[0];
@@ -121,7 +121,7 @@ const Slide = styled.div`
 
 	img {
 		height:100%;
-        width:1280px;  /*si tamanio original de la imagen es menor a esto debo poner width */
+        width:100%;  /*si tamanio original de la imagen es menor a esto debo poner width: era cuando tenia el valor de 1280px OJO */
 		max-width: 100%;    /* porque maxWidth de DivSlide es 1280px */
 		vertical-align: top;
 	}

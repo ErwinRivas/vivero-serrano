@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styled from 'styled-components';
-import TabsContenidoUno from "./TabsContenidoUno";
+import {TabsContenidoUno} from "./TabsContenidoUno";
 
 function Tabs() {
     const [toggleState, setToggleState] = useState(1);
@@ -17,32 +17,32 @@ function Tabs() {
                     tabActivo={toggleState}
                     onClick={() => toggleTab(1)}
                 >
-                    ARTÍCULOS
+                    <Titulo>ARTÍCULOS</Titulo>
                 </Boton>
                 <Boton
                     colorBefore2="red" fontW2="900" borderB2="1px solid transparent"
                     tabActivo={toggleState}
                     onClick={() => toggleTab(2)}
                 >
-                    NUESTROS SERVICIOS
+                    <Titulo>  NUESTROS SERVICIOS</Titulo>
                 </Boton>
                 <Boton
                     colorBefore3="orange" fontW3="900" borderB3="1px solid transparent"
                     tabActivo={toggleState}
                     onClick={() => toggleTab(3)}
                 >
-                    OFERTAS
+                    <Titulo>OFERTAS </Titulo>
                 </Boton>
             </ContenedorTabs>
             <hr style={{ marginBottom: '27px' }} />
             <ContenedorContenidoTabs>
                 <DivContenido
                     colorContenido1="green"
-                    ocultarDiv12="none"  ocultarDiv13="none"
+                    ocultarDiv12="none" ocultarDiv13="none"
                     tabActivo={toggleState}
                 >
-                    <Contenidos> 
-                    <TabsContenidoUno/>
+                    <Contenidos>
+                        <TabsContenidoUno />   
                     </Contenidos>
                 </DivContenido>
 
@@ -88,7 +88,7 @@ const ContenedorPrincipal = styled.div`
     align-items: center;
     flex-direction: column;
     position: relative;
-    max-width: 1280px;
+    max-width: 100%;
     max-height: 100%;
     /* background: #f1f1f1; */
     margin: 17px auto 0;
@@ -141,32 +141,32 @@ transform: translateX(-50%);
 width: calc(100% + 2px);
 height: 5px;
 background: ${props => props.tabActivo === 1 ? props.colorBefore1
-:props.tabActivo === 2 ? props.colorBefore2
-:props.tabActivo === 3 ? props.colorBefore3
-:'white'};
+        : props.tabActivo === 2 ? props.colorBefore2
+            : props.tabActivo === 3 ? props.colorBefore3
+                : 'white'};
 `;
 
 
 const ContenedorContenidoTabs = styled.div`
     display:flex;
-    max-width: 1280px;
+    max-width: 100%;
     width: 100%;
 `;
 
 
 const DivContenido = styled.div`
-padding: 20px;
+padding: 20px 50px;
 width: 100%;
 height: 100%;
 background: ${props => props.tabActivo === 1 ? props.colorContenido1
-: props.tabActivo === 2 ? props.colorContenido2
-: props.tabActivo === 3 ? props.colorContenido3
-: 'white'};
+        : props.tabActivo === 2 ? props.colorContenido2
+            : props.tabActivo === 3 ? props.colorContenido3
+                : 'white'};
 
 display: ${props => props.tabActivo === 1 ? props.ocultarDiv23
-: props.tabActivo === 2 ? props.ocultarDiv13
-: props.tabActivo === 3 ? props.ocultarDiv12
-: 'none'};
+        : props.tabActivo === 2 ? props.ocultarDiv13
+            : props.tabActivo === 3 ? props.ocultarDiv12
+                : 'none'};
 
 
 h2{
@@ -181,13 +181,23 @@ hr{
 p{
     width: 100%;
     height: 100%;
-  }            
+  }   
+  @media screen and (max-width: 996px) {
+padding: 7px 17px;
+}         
 `;
 
 
 const Contenidos = styled.div`
 display:flex;
-justify-content: space-between;
-grid-gap: 17px; 
+justify-content: space-around;
+grid-gap: 7px; 
+
 `;
 
+const Titulo = styled.p`
+	font-size: 14px;
+    @media screen and (max-width: 450px) {
+        font-size: 8px;
+}
+`;

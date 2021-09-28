@@ -7,14 +7,26 @@ import img2 from '../images/2.jpg'
 import img3 from '../images/3.jpg'
 import img4 from '../images/4.jpg'
 import Tabs from '../components/TabsArtsServOfer';
+import CardsMasVendidos  from '../components/CardsMasVendidos';
+import InfoEntregasVarios from '../components/InfoEntregasVarios'
 
 class Home extends Component {
+    state = {
+        click: false
+    }
+
+
+    handleClick = () => {
+        this.setState({
+            click: true
+        })
+    }
     render() {
+        const { click } = this.state;
         return (
             <div>
-                <div style={{ margin: '17px' }}>
+                <div style={{ marginTop: '17px' }}>
                     <DivSlide>
-                        {/* <Titulo>Productos Destacados</Titulo> */}
                         <Slideshow controles={true} autoplay={true} velocidad="2000" intervalo="4000">
                             <Slide>
                                 <Link to='/vivero-serrano'>
@@ -51,22 +63,15 @@ class Home extends Component {
                         </Slideshow>
                     </DivSlide>
                     <Tabs />
-                    <div>productos mas vendidos</div>
-                    <div>info </div>
+                    <CardsMasVendidos estadoBoton={click} onClickBoton={this.handleClick} />
+                    <InfoEntregasVarios />
                 </div>
             </div>
         )
     }
 
 }
-const Titulo = styled.p`
-	font-size: 18px;
-	font-weight: 700;
-	text-transform: uppercase;
-	margin-bottom: 10px;
-`;
 const DivSlide = styled.div`
-    max-width:1280px;
     margin:  auto;
     overflow: hidden;
 `;
